@@ -5,8 +5,8 @@ node_js:
     
 cache:
   directories:
-		- node_modules
-		
+    - node_modules
+
 dist: trusty # required for chrome
 
 sudo: required # required due to a travis environment issue
