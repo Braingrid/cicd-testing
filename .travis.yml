@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - node
+  - node # latest stable version
     
 cache:
   directories:
@@ -15,4 +15,4 @@ addons: # get google-chrome-stable
   chrome: stable
     
 before_install:
-  google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
