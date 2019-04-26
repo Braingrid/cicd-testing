@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import Hello from './components/Hello';
+export { Stack } from './structures/Stack';
 
 ReactDOM.render(
   <Hello name="TypeScript" enthusiasmLevel={10} />,
